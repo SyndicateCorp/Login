@@ -13,6 +13,7 @@
         android:layout_columnWeight="1"
         android:background="@android:color/transparent"
         android:drawableRight="@drawable/img_teenagers_128"
+        android:id="@+id/tampilForexButton"
         android:textColor="#fff"
         android:text="Forex"/>
     <Button
@@ -24,5 +25,13 @@
         android:text="Master Mahasiswa"
         android:drawableLeft="@drawable/student"
         android:id="@+id/tampilMahasiswaButton"/>
-
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/img_teenagers_128"
+        android:id="@+id/tampilCuacaButton"
+        android:textColor="#fff"
+        android:text="Cuaca"/>
 </GridLayout>
